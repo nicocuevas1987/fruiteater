@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .stats {
+    position: absolute;
+    width: 100%;
+    height: 8%;
+    bottom: 0;
+    opacity: 0.8;
+  }
+  .row{
+    display: flex;
+    height: 100%;
+    width: 100%;
+  }
+  .wall{
+    display: flex;
+    height: 5vh;
+    width: 5vw;
+    background-color: grey;
+  }
+  .pacman{
+    display: flex;
+    height: 5vh;
+    width: 5vw;
+    background-color: darkgoldenrod;
+  }
+  .ghost{
+    display: flex;
+    height: 5vh;
+    width: 5vw;
+    background-color: pink;
+  }
+  .field{
+    display: flex;
+    height: 5vh;
+    width: 5vw;
+    background-color: darkgrey;
+  }
+  .fruit{
+    display: flex;
+    height: 5vh;
+    width: 5vw;
+    background-color: red;
+  }
+  .hide{
+    display: none;
+  }
+
+  .menu-text{
+    font-size: 3rem;
+  }
+
+
+  .game--controlls {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    background: transparent;
+    justify-content: space-between;
+    position: absolute;
+    padding: 0 30px;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .controlls {
+    width: 90px;
+    height: 90px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    transform: rotate(45deg);
+  }
+  
+  .controlls--btn {
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 100%;
+    color: grey;
+    font-size: 20px;
+    transform: rotate(-45deg);
+  }
